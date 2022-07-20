@@ -33,6 +33,11 @@
       align-items: center;
       flex-wrap: wrap;
 
+      @media (max-width: 480px) {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
       margin-left: -15px;
       margin-right: -15px;
     }
