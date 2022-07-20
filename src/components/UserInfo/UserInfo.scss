@@ -1,0 +1,15 @@
+.User {
+  &__info {
+    &-title {
+      margin-bottom: 15px;
+
+      font-size: 2rem;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+
+    &-text {
+      margin-bottom: 5px;
+    }
+  }
+}
